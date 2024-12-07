@@ -1,10 +1,10 @@
 function getWeather() {
-    const apiKey = 'e4dac0fd1bcb0e10bfd9f0a698310158';
+    const apiKey = 'YOUR-API-KEY';
     const city = document.getElementById('city').value;
 
     if (!city) {
         alert('Please enter a city');
-        console.log("error in entry");
+        // console.log("error in entry");
         return;
     }
 
